@@ -50,7 +50,7 @@
         </ul>
     </nav>
     <main class="signup-page">
-        <h1 class="signup-title">Aweson! Let's dive right in!</h1>
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
         <form action="index.html" class="signup-form">
             <label for="title">Title</label>
             <select id="title">
@@ -65,10 +65,12 @@
             <input type="email" id="email" required>
             <label for="password">Password</label>
             <input type="text" id="password" required>
-            <input type="checkbox" id="agree-terms" required>
-            <label for="agree-terms">Agree to
-                <a href="#">Terms &amp; Conditions</a>
-            </label>
+            <div class="signup-form__checkbox">
+                <input type="checkbox" id="agree-terms" required>
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms &amp; Conditions</a>
+                </label>
+            </div>
             <button type="submit" class="button" disabled>Sign Up</button>
         </form>
     </main> 
